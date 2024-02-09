@@ -1,4 +1,4 @@
-if TARGET_K230_SIPLP4
+if TARGET_K230D_CANMV
 
 config SYS_CPU
 	default "k230"
@@ -7,7 +7,7 @@ config SYS_VENDOR
     default "canaan"
 
 config SYS_BOARD
-    default "k230_siplp4"
+    default "k230d_canmv"
 
 config SYS_CONFIG_NAME
     default "k230_evb"
